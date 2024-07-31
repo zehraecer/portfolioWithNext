@@ -15,8 +15,8 @@ export default function MyProjects() {
                 <div className="MyProject-container">
                     {Project.map(proje => {
                         return (
-                            <div className="Projects" style={{ padding: "24px", backgroundColor: "#e6cdc3" }}>
-                                <div key={proje.id}>
+                            <div key={proje.id} className="Projects" style={{ padding: "24px", backgroundColor: "#e6cdc3" }}>
+                                <div >
                                     <img src={proje.image} />
                                 </div>
                                 <div className="Projects-hover" style={{ padding: "20px" }}>

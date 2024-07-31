@@ -11,7 +11,7 @@ export default function AboutMe() {
 
                     <div className="hero-leftFirst">
 
-                        <img src="./profil-foto.jpg" />
+                        <img src="profil-foto.jpg" />
 
                         <h2>ZEHRA <br /> ECER</h2>
                         <h3>FRONTEND DEVELOPER</h3>

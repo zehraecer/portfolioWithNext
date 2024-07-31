@@ -7,18 +7,18 @@ export const Header = () => {
     return (
         <>
             <div className="header container">
-                <a href="index.html">ZEHRA ECER <span>/ FRONTEND DEVELOPER</span></a>
+                <Link href="/aboutMe">ZEHRA ECER <span>/ FRONTEND DEVELOPER</span></Link>
 
                 <div className="header-navBar">
-                    <Link href="index.html">Hakkımda</Link>
-                    <Link href="projects.html">Projelerim</Link>
-                    <Link href="experiences.html">Tecrübelerim</Link>
-                    <Link href="contact.html">İletişim</Link>
+                    <Link href="/aboutMe">Hakkımda</Link>
+                    <Link href="/myProject">Projelerim</Link>
+                    <Link href="/myExperiences">Tecrübelerim</Link>
+                    <Link href="/contact">İletişim</Link>
                 </div>
 
                 <div className="header-hamburgerBar">
 
-                    <img src="assets/img/hamburger.svg" />
+                    <img src="hamburger.svg" />
 
                 </div>
             </div>

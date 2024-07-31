@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 export const Footer = () => {
 
     return (
@@ -12,11 +14,18 @@ export const Footer = () => {
                     <div className="footer-leftFirst">
                         <h3>Follow Me</h3>
                         <div className="footer-social">
-                            <a href="https://www.instagram.com/zehraecerr/"><i className="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/zehra-e-88aa57241/"> <i className="fa-brands fa-linkedin"></i>
+                            <a style={{ width: "20px", height: "20px" }} href="https://www.instagram.com/zehraecerr/">
+                                <FontAwesomeIcon icon={faInstagram} />
                             </a>
-                            <a href="https://github.com/zehraecer"> <i className="fa-brands fa-github"></i></a>
-                            <a href="#"> <i className="fa-brands fa-x-twitter"></i></a>
+                            <a style={{ width: "20px", height: "20px" }} href="https://www.linkedin.com/in/zehra-e-88aa57241/">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                            <a style={{ width: "20px", height: "20px" }} href="https://github.com/zehraecer">
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <a style={{ width: "20px", height: "20px" }} href="https://github.com/zehraecer">
+                                <FontAwesomeIcon icon={faTwitter} />
+                            </a>
 
                         </div>
                     </div>

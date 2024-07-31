@@ -52,6 +52,7 @@ select {
     justify-content: space-between;
     font-weight: 400;
     line-height: 26px;
+    padding-inline: 10px;
 
     a {
         color: black;
@@ -157,7 +158,6 @@ select {
 }
 
 .hero-rightButtons {
-
     /* padding-top: 24px; */
     display: flex;
     gap: 20px;
@@ -173,71 +173,6 @@ select {
 
     }
 }
-
-
-/* 
-.carousel {
-    display: flex;
-    justify-content: center;
-    margin-block: 40px;
-
-}
-
-.slider-carousel {
-    width: 800px;
-    height: 400px;
-    background-color: aqua;
-    position: relative;
-    overflow: hidden;
-
-}
-
-.arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: #e08989;
-    border-radius: 50%;
-    z-index: 999;
-    cursor: pointer;
-    position: absolute;
-    top: calc(50% - 17px);
-}
-
-.left-arrow {
-    left: 10px;
-
-
-
-}
-
-.right-arrow {
-    right: 10px;
-
-}
-
-.slider {
-    width: fit-content;
-    display: flex;
-    height: 100%;
-    position: relative;
-    left: 0;
-}
-
-.slide {
-    width: 800px;
-    height: 400px;
-    background-size: 800px 400px;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-
-} */
 
 .footer {
     display: flex;

@@ -51,7 +51,6 @@ export default function AboutMe() {
                         Frontend odaklı çalışıyorum ve React, Next.js, HTML, CSS gibi teknolojilerde deneyimliyim.
                         Kullanıcı dostu ve estetik web uygulamaları tasarlamaktan keyif alıyorum.
                         Ayrıca tasarımlarımı Figma ile oluşturarak projelerimde modern ve işlevsel arayüzler sunuyorum.
-                        Daha fazla bilgi ve projelerimi incelemek için aşağıdaki bağlantılara göz atabilirsiniz.
                     </p>
                 </div>
 

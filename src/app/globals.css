@@ -353,6 +353,30 @@ select {
 
 }
 
+.header-hamburgerBar {
+    position: relative;
+}
+
+.hamburgerBar {
+    display: none;
+
+    span {
+        font-size: 18px;
+    }
+
+}
+
+.hamburgerBarNav {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: right 0.3s ease-in-out;
+}
 
 /* MOBIL VERSION */
 

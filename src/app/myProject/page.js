@@ -8,7 +8,6 @@ export default function MyProjects() {
     return (
         <>
             <div className="myProject">
-
                 <div>
                     <span>Projeler</span>
                 </div>
@@ -28,7 +27,6 @@ export default function MyProjects() {
                                         <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='github.png' />
                                         <a target="_blank" href={proje.github}>Github</a>
                                     </div>
-
                                 </div>
                             </div>
                         )

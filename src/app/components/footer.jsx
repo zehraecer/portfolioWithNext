@@ -8,11 +8,11 @@ export const Footer = () => {
             <div className="footer">
                 <div className="footer-left">
                     <div className="footer-leftFirst">
-                        <h3>Write</h3>
+                        <h3>Bana Yazın</h3>
                         <a href="#">zehraecer1996@hotmail.com</a>
                     </div>
                     <div className="footer-leftFirst">
-                        <h3>Follow Me</h3>
+                        <h3>Beni Takip Edin</h3>
                         <div className="footer-social">
                             <a style={{ width: "20px", height: "20px" }} href="https://www.instagram.com/zehraecerr/">
                                 <FontAwesomeIcon icon={faInstagram} />
@@ -31,7 +31,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-right">
-                    <h4>© Copyright 2024 Zehra Ecer All Rights Reserved.</h4>
+                    <h4>Zehra Ecer © Copyright 2024  Tüm Hakları Saklıdır.</h4>
                 </div>
             </div>
 

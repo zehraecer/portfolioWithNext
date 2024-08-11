@@ -43,7 +43,7 @@ export default function AboutMe() {
 
                     <div className="hero-rightButtons">
                         <a href="https://github.com/zehraecer?tab=repositories">Projelerim</a>
-                        <a href="assets/cv/ZehraEcerCV.pdf" download>CV İNDİR</a>
+                        <a href="zehraEcerCv.pdf" download>CV İNDİR</a>
                     </div>
 
                     <p>

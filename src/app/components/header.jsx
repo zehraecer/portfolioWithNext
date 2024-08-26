@@ -1,15 +1,10 @@
 "use client"
 import Link from "next/link"
-import { useReducer, useRef } from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // JavaScript için
+import "../style/bootstrap.min.css"
+import "../style/bootstrap.bundle.min.js"
 
 export const Header = () => {
-    const navBarRef = useRef()
-    const showBar = () => {
-        console.log("kdngfdo");
-        navBarRef.current.style.display = "flex"
-    }
+
 
     return (
         <>
@@ -39,16 +34,16 @@ export const Header = () => {
                                 <div className="offcanvas-body">
                                     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                                         <li className="nav-item">
-                                            <Link className="nav-link active" aria-current="page" href="#">Hakkımda</Link>
+                                            <Link href="/aboutMe" className="nav-link active" aria-current="page" >Hakkımda</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" href="#">Projelerim</Link>
+                                            <Link href="/myProject" className="nav-link" >Projelerim</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" href="#">Tecrübelerim</Link>
+                                            <Link className="nav-link" href="/myExperiences">Tecrübelerim</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" href="#">İletişim</Link>
+                                            <Link className="nav-link" href="/contact">İletişim</Link>
                                         </li>
                                     </ul>
                                 </div>

@@ -12,7 +12,7 @@ export default function Experiences() {
                     <img src="javascript.png" />
                     <img src="react.png" />
                     <img src="next.svg" />
-                    <img src="figma.png" />
+                    <img src="figma2.png" />
                     <img src="git.png" />
                     <img src="github.png" />
                 </div>

@@ -358,7 +358,8 @@ select {
 }
 
 .hamburgerBar {
-    display: none;
+
+    flex-direction: row;
 
     span {
         font-size: 18px;

@@ -16,16 +16,16 @@ export default function RootLayout({ children }) {
     <html lang="tr">
       <Head>
         <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
           rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css"
+          integrity="sha384-GLhlTQ9K1j5aF4ZRR+I7D5xx5sVsOg6/8p6cJvZdT6uVb5eGG7zIswD8G6fX3dGf"
           crossOrigin="anonymous"
         />
         <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+          integrity="sha384-lZN37fXk8pO2D6UFWfZ2Nz1FzAeM6mOH4+GOrOnBuT3zS5a9r5FIFkFD1g4lm2/Z"
           crossOrigin="anonymous"
-          defer
+          async
         ></script>
       </Head>
       <body className={inter.className}>

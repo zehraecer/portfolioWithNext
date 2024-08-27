@@ -403,6 +403,7 @@ select {
 
     /* contact */
     .footer {
+        /* margin-top: 300px; */
         flex-direction: column;
         justify-content: space-between;
     }

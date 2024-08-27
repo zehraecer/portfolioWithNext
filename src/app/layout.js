@@ -29,9 +29,18 @@ export default function RootLayout({ children }) {
         ></script>
       </Head>
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100vh" }}>
+
+          <div >
+            <Header />
+          </div>
+          <div>
+            {children}
+          </div>
+          <div>
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );

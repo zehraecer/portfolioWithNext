@@ -293,6 +293,7 @@ select {
 }
 
 .Projects {
+    background-color: #e0d1c2;
     position: relative;
     overflow: hidden;
     /* Hover elemanının taşmasını önlemek için */
@@ -311,21 +312,35 @@ select {
     background-color: rgba(152, 115, 100, 0.6);
     /* Hover sırasında karartma efekti */
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     /* text-align: center; */
     opacity: 0;
-    transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
 
     /* Hover sırasında opaklık geçişi */
     a {
         color: white;
 
     }
+
+    span {
+        color: #fff;
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+    }
 }
 
 .Projects:hover .Projects-hover {
-    opacity: 1;
+    opacity: 3;
 }
 
 /* tecrübelerim */
@@ -418,7 +433,7 @@ select {
     /* projelerim */
     .MyProject-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
 
     .myExperiences {

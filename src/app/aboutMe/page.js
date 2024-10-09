@@ -18,24 +18,14 @@ export default function AboutMe() {
 
                     </div>
                     <div className="hero-leftSecond">
-
-                        <a style={{ width: "20px", height: "20px" }} href="https://www.instagram.com/zehraecerr/">
-                            <FontAwesomeIcon icon={faInstagram} />
-                        </a>
                         <a style={{ width: "20px", height: "20px" }} href="https://www.linkedin.com/in/zehra-e-88aa57241/">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                         <a style={{ width: "20px", height: "20px" }} href="https://github.com/zehraecer">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a style={{ width: "20px", height: "20px" }} href="https://github.com/zehraecer">
-                            <FontAwesomeIcon icon={faTwitter} />
-                        </a>
-
-
                     </div>
                 </div>
-
 
                 <div className="hero-right">
                     <h1>Merhaba, Ben Zehra Ecer</h1>

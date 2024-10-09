@@ -115,5 +115,23 @@
         "image": "./kanban.png",
         "link": "https://kanban-vese.vercel.app/",
         "github": "https://github.com/zehraecer/kanban"
+    },
+    {
+        "id": 14,
+        "name": "Dashboard Design",
+        "description": "React,Bootstrap, Css",
+        "title": "ben todo yaptım",
+        "image": "./dashboard-design.png",
+        "link": "https://dashboard-design-iota-wine.vercel.app/",
+        "github": "https://github.com/zehraecer/dashboardDesign"
+    },
+    {
+        "id": 15,
+        "name": "Kanban",
+        "description": "React.js, Supabase, Css",
+        "title": "ben todo yaptım",
+        "image": "./e-commerce.png",
+        "link": "https://bitirme-projesi-sage.vercel.app/",
+        "github": "https://github.com/zehraecer/bitirmeProjesi"
     }
 ]

@@ -12,20 +12,24 @@ export default function MyProjects() {
                     <span>Projeler</span>
                 </div>
                 <div className="MyProject-container">
-                    {Project.map(proje => {
+                    {Project.slice().reverse().map(proje => {
                         return (
-                            <div key={proje.id} className="Projects" style={{ padding: "24px", backgroundColor: "#e6cdc3" }}>
+                            <div key={proje.id} className="Projects" style={{ padding: "24px" }}>
                                 <div >
                                     <img src={proje.image} />
                                 </div>
                                 <div className="Projects-hover" style={{ padding: "20px" }}>
-                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
-                                        <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='globe.png' />
-                                        <a target="_blank" href={proje.link}>Canlı Demo</a>
-                                    </div>
-                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
-                                        <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='github.png' />
-                                        <a target="_blank" href={proje.github}>Github</a>
+                                    <span>{proje.name}</span>
+                                    <p>{proje.description}</p>
+                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px" }}>
+                                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
+                                            <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='globe.png' />
+                                            <a target="_blank" href={proje.link}>Canlı Demo</a>
+                                        </div>
+                                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
+                                            <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='github.png' />
+                                            <a target="_blank" href={proje.github}>Github</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

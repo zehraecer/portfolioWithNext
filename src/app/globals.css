@@ -445,3 +445,9 @@ select {
     }
 
 }
+
+.myExperiencesDiv {
+
+    display: block;
+    /* flex-direction: row; */
+}

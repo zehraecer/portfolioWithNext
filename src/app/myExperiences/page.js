@@ -15,6 +15,7 @@ export default function Experiences() {
                     <img src="figma2.png" />
                     <img src="git.png" />
                     <img src="github.png" />
+                    <img src="bootstrap.svg" />
                 </div>
             </div>
         </>

@@ -38,7 +38,7 @@ export default function AboutMe() {
 
                     <p>
                         Kendini sürekli geliştiren ve yeni teknolojilere meraklı bir yazılım geliştiriciyim.
-                        Frontend odaklı çalışıyorum ve  HTML, CSS, Javascript, React, Next.js, Bootstrap, Git-Github, Figma gibi teknolojilerde deneyimliyim.
+                        Frontend odaklı çalışıyorum ve  HTML, CSS, Javascript, TypeScript, React, Next.js, Bootstrap, Git-Github, Figma gibi teknolojilerde deneyimliyim.
                         Kullanıcı dostu ve estetik web uygulamaları tasarlamaktan keyif alıyorum.
                     </p>
                 </div>

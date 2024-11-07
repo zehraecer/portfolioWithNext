@@ -10,6 +10,7 @@ export default function Experiences() {
                     <img src="html.png" />
                     <img src="css.png" />
                     <img src="javascript.png" />
+                    <img src="ts.png" />
                     <img src="react.png" />
                     <img src="next.svg" />
                     <img src="figma2.png" />

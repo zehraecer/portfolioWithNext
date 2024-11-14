@@ -83,7 +83,7 @@
     {
         "id": 10,
         "name": "Tic Tac Toe",
-        "description": "Html, Css, Javascript",
+        "description": "React, Css, Javascript",
         "title": "ben todo yaptım",
         "image": "./ticTacToe.png",
         "link": "https://tic-tac-toe-beige-six.vercel.app/",
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "name": "Todo With Supabase",
-        "description": "Html, Css, Javascript",
+        "description": "React, Css, Javascript",
         "title": "ben todo yaptım",
         "image": "./todoSupabase.png",
         "link": "https://todo-with-react-three.vercel.app/",
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "name": "Pomodoro",
-        "description": "Html, Css, Javascript",
+        "description": "React, Css, Javascript",
         "title": "ben todo yaptım",
         "image": "./pomodoro.png",
         "link": "https://pomodoro-seven-silk.vercel.app/",
@@ -127,8 +127,8 @@
     },
     {
         "id": 15,
-        "name": "Kanban",
-        "description": "React.js, Supabase, Css",
+        "name": "E-Commerce",
+        "description": "Next.js, Supabase, Css",
         "title": "ben todo yaptım",
         "image": "./e-commerce.png",
         "link": "https://bitirme-projesi-sage.vercel.app/",

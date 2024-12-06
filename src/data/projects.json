@@ -133,5 +133,14 @@
         "image": "./e-commerce.png",
         "link": "https://bitirme-projesi-sage.vercel.app/",
         "github": "https://github.com/zehraecer/bitirmeProjesi"
+    },
+    {
+        "id": 16,
+        "name": "Quiz App",
+        "description": "TypeScript, React.ts, Css,Bootstrap",
+        "title": "ben todo yaptım",
+        "image": "./quiz.png",
+        "link": "https://quiz-app-with-type-script-qwy6.vercel.app/",
+        "github": "https://github.com/zehraecer/QuizAppWithTypeScript"
     }
 ]

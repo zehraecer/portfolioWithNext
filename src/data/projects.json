@@ -126,15 +126,6 @@
         "github": "https://github.com/zehraecer/dashboardDesign"
     },
     {
-        "id": 15,
-        "name": "E-Commerce",
-        "description": "Next.js, Supabase, Css",
-        "title": "ben todo yaptım",
-        "image": "./e-commerce.png",
-        "link": "https://bitirme-projesi-sage.vercel.app/",
-        "github": "https://github.com/zehraecer/bitirmeProjesi"
-    },
-    {
         "id": 16,
         "name": "Quiz App",
         "description": "TypeScript, React.ts, Css,Bootstrap",

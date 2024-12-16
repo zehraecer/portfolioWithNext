@@ -20,18 +20,18 @@ export default function MyProjects() {
                         return (
                             <div key={proje.id} className="Projects" style={{ padding: "24px" }}>
                                 <div >
-                                    <Image width={300} height={300} src={proje.image} />
+                                    <Image width={300} height={300} src={`/${proje.image}`} />
                                 </div>
                                 <div className="Projects-hover" style={{ padding: "20px" }}>
                                     <span>{proje.name}</span>
                                     <p>{proje.description}</p>
                                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px" }}>
                                         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
-                                            <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='globe.png' />
+                                            <Image width={20} height={20} style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='/globe.png' />
                                             {!isClicked ? <a target="_blank" href={proje.link}>Canlı Demo</a> : <a target="_blank" href={proje.link}>Live Demo</a>}
                                         </div>
                                         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
-                                            <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='github.png' />
+                                            <Image width={20} height={20} style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='/github.png' />
                                             <a target="_blank" href={proje.github}>Github</a>
                                         </div>
                                     </div>

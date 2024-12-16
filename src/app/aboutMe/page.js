@@ -10,13 +10,9 @@ export default function AboutMe() {
     return (
         <>
             <div className="hero container">
-
-
                 <div className="hero-left">
-
                     <div className="hero-leftFirst">
-
-                        <Image width={200} height={200} src="profil-foto.jpg" />
+                        <Image width={200} height={200} src="/profil-foto.jpg" />
 
                         <h2>ZEHRA <br /> ECER</h2>
                         <h3>FRONTEND DEVELOPER</h3>
@@ -41,7 +37,6 @@ export default function AboutMe() {
                             <a href="https://github.com/zehraecer?tab=repositories">Projelerim</a>
                             <a target="_blank" href="zehraEcerCv.pdf" >CV</a>
                         </div>
-
                         <p>
                             Kendini sürekli geliştiren ve yeni teknolojilere meraklı bir yazılım geliştiriciyim.
                             Frontend odaklı çalışıyorum ve  HTML, CSS, Javascript, TypeScript, React, Next.js, Bootstrap, Git-Github, Figma gibi teknolojilerde deneyimliyim.
@@ -49,26 +44,18 @@ export default function AboutMe() {
                         </p>
                     </div>
                     :
-
                     <div className="hero-right">
                         <h1>Hello, I'm Zehra Ecer</h1>
-
                         <h3>FRONTEND DEVELOPER</h3>
-
                         <div className="hero-rightButtons">
                             <a href="https://github.com/zehraecer?tab=repositories">My Projects</a>
                             <a target="_blank" href="zehraEcerCv.pdf" >CV</a>
                         </div>
-
                         <p>
                             I am a software developer who is constantly improving and curious about new technologies. I focus on frontend development and have experience with technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, Bootstrap, Git-GitHub, and Figma. I enjoy designing user-friendly and aesthetic web applications.
                         </p>
                     </div>
                 }
-
-
-
-
             </div >
         </>
     )

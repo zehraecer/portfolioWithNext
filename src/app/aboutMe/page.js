@@ -12,7 +12,7 @@ export default function AboutMe() {
             <div className="hero container">
                 <div className="hero-left">
                     <div className="hero-leftFirst">
-                        <Image width={200} height={200} src="/profil-foto.jpg" />
+                        <Image width={200} height={200} src="/profil-foto.jpg" alt='/profil-foto.jpg' />
 
                         <h2>ZEHRA <br /> ECER</h2>
                         <h3>FRONTEND DEVELOPER</h3>

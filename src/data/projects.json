@@ -4,7 +4,7 @@
         "name": "Social Profil",
         "description": "Html, Css",
         "title": "HTML ve CSS  kullanarak geliştirdiğim bu proje, kullanıcının sosyal medya profillerine bağlantılar sunar. Profil sayfası, kullanıcının sosyal medya hesaplarına hızlı erişim sağlayarak online varlığını sergilemesine olanak tanır.",
-        "image": "./profilLink.png",
+        "image": "/profilLink.png",
         "link": "https://zehraecer.github.io/socialLinksProfile/",
         "github": "https://github.com/zehraecer/socialLinksProfile"
     },
@@ -13,7 +13,7 @@
         "name": "Dev Jobs",
         "description": "Html, Css, Javascript",
         "title": "HTML, CSS ve JavaScript kullanarak oluşturduğum bu web uygulaması, yazılım geliştiricileri için iş ilanlarını listeler. Kullanıcılar, çeşitli kategorilerdeki iş ilanlarını arayabilir ve filtreleyebilir.",
-        "image": "./devJobs.png",
+        "image": "/devJobs.png",
         "link": "https://zehraecer.github.io/devJobsWebApp/",
         "github": "https://github.com/zehraecer/devJobsWebApp"
     },
@@ -22,7 +22,7 @@
         "name": "Github User Search",
         "description": "Html, Css, Javascript",
         "title": " HTML, CSS ve JavaScript kullanarak geliştirdiğim bu uygulama, kullanıcıların GitHub kullanıcı profillerini aramasına olanak tanır. Kullanıcı adı girilerek ilgili kullanıcının profil bilgileri ve reposu görüntülenebilir.",
-        "image": "./githubSearc.png",
+        "image": "/githubSearc.png",
         "link": "https://zehraecer.github.io/githubKullaniciArama/",
         "github": "https://github.com/zehraecer/githubKullaniciArama"
     },
@@ -31,7 +31,7 @@
         "name": "Todo",
         "description": "Html, Css, Javascript",
         "title": "HTML, CSS ve JavaScript kullanarak geliştirdiğim bu basit yapılacaklar listesi uygulaması, kullanıcıların görevleri listelemesine ve tamamlandıkça işaretlemesine olanak tanır.",
-        "image": "./todo.png",
+        "image": "/todo.png",
         "link": "https://zehraecer.github.io/toDoApp/",
         "github": "https://github.com/zehraecer/toDoApp"
     },
@@ -40,7 +40,7 @@
         "name": "Multi Step Form",
         "description": "Html, Css, Javascript",
         "title": "HTML, CSS ve JavaScript kullanarak oluşturduğum bu çok adımlı form uygulaması, kullanıcıların çeşitli bilgileri adım adım girmesine olanak tanır ve form tamamlandığında tüm bilgileri gösterir.",
-        "image": "./multiStepForm.png",
+        "image": "/multiStepForm.png",
         "link": "https://zehraecer.github.io/multiStepForm/",
         "github": "https://github.com/zehraecer/multiStepForm"
     },
@@ -49,7 +49,7 @@
         "name": "Responsive Design Blog",
         "description": "Html, Css",
         "title": "HTML ve CSS kullanarak geliştirdiğim bu blog, duyarlı web tasarımı hakkında bilgi verir ve modern web tasarım tekniklerini açıklar.",
-        "image": "./responsive.png",
+        "image": "/responsive.png",
         "link": "https://zehraecer.github.io/responsiveDesignBlog/",
         "github": "https://github.com/zehraecer/responsiveDesignBlog"
     },
@@ -58,7 +58,7 @@
         "name": "Responsive Design",
         "description": "Html, Css",
         "title": "HTML ve CSS kullanarak geliştirdiğim bu duyarlı tasarım örneği, farklı ekran boyutlarına uyum sağlar ve mobil ile masaüstü cihazlarda tutarlı bir kullanıcı deneyimi sunar.",
-        "image": "./responsive2.png",
+        "image": "/responsive2.png",
         "link": "https://zehraecer.github.io/responsiveDesign/",
         "github": "https://github.com/zehraecer/responsiveDesign"
     },
@@ -67,7 +67,7 @@
         "name": "Calculator",
         "description": "Html, Css, Javascript",
         "title": "ben todo yaptım",
-        "image": "./calculator.png",
+        "image": "/calculator.png",
         "link": "https://zehraecer.github.io/hesapMakinesi/",
         "github": "https://github.com/zehraecer/hesapMakinesi"
     },
@@ -76,7 +76,7 @@
         "name": "Planet Fact Site",
         "description": "Html, Css, Javascript",
         "title": "ben todo yaptım",
-        "image": "./planetFactSite.png",
+        "image": "/planetFactSite.png",
         "link": "https://zehraecer.github.io/planetFactSite3/",
         "github": "https://github.com/zehraecer/planetFactSite3"
     },
@@ -85,7 +85,7 @@
         "name": "Tic Tac Toe",
         "description": "React, Css, Javascript",
         "title": "ben todo yaptım",
-        "image": "./ticTacToe.png",
+        "image": "/ticTacToe.png",
         "link": "https://tic-tac-toe-beige-six.vercel.app/",
         "github": "https://github.com/zehraecer/ticTacToe"
     },
@@ -94,7 +94,7 @@
         "name": "Todo With Supabase",
         "description": "React, Css, Javascript",
         "title": "ben todo yaptım",
-        "image": "./todoSupabase.png",
+        "image": "/todoSupabase.png",
         "link": "https://todo-with-react-three.vercel.app/",
         "github": "https://github.com/zehraecer/todoWithReact"
     },
@@ -103,7 +103,7 @@
         "name": "Pomodoro",
         "description": "React, Css, Javascript",
         "title": "ben todo yaptım",
-        "image": "./pomodoro.png",
+        "image": "/pomodoro.png",
         "link": "https://pomodoro-seven-silk.vercel.app/",
         "github": "https://github.com/zehraecer/pomodoro"
     },
@@ -112,7 +112,7 @@
         "name": "Kanban",
         "description": "React.js, Supabase, Css",
         "title": "ben todo yaptım",
-        "image": "./kanban.png",
+        "image": "/kanban.png",
         "link": "https://kanban-vese.vercel.app/",
         "github": "https://github.com/zehraecer/kanban"
     },
@@ -121,7 +121,7 @@
         "name": "Dashboard Design",
         "description": "React,Bootstrap, Css",
         "title": "ben todo yaptım",
-        "image": "./dashboard-design.png",
+        "image": "/dashboard-design.png",
         "link": "https://dashboard-design-iota-wine.vercel.app/",
         "github": "https://github.com/zehraecer/dashboardDesign"
     },
@@ -130,7 +130,7 @@
         "name": "Quiz App",
         "description": "TypeScript, React.ts, Css,Bootstrap",
         "title": "ben todo yaptım",
-        "image": "./quiz.png",
+        "image": "/quiz.png",
         "link": "https://quiz-app-with-type-script-qwy6.vercel.app/",
         "github": "https://github.com/zehraecer/QuizAppWithTypeScript"
     }

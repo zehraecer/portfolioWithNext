@@ -1,10 +1,15 @@
+"use client"
+import { useContext } from "react"
+import { MyContext, MyProvider } from "../context"
+
 export default function Experiences() {
+    const { isClicked } = useContext(MyContext)
 
     return (
         <>
             <div className="myExperiences">
 
-                <h1>TECRÜBELERİM</h1>
+                {!isClicked ? <h1>TECRÜBELERİM</h1> : <h1>MY EXPERIENCES</h1>}
 
                 <div className="myExperiencesContainer">
                     <img src="html.png" />

@@ -2,14 +2,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-brands-svg-icons';
 import Project from "@/data/projects.json"
+import { useContext } from 'react';
+import { MyContext } from '../context';
 export default function MyProjects() {
-    console.log(Project);
+    const { isClicked } = useContext(MyContext)
+
 
     return (
         <>
             <div className="myProject">
                 <div>
-                    <span>Projeler</span>
+                    {!isClicked ? <span>Projeler</span> : <span>Projects</span>}
                 </div>
                 <div className="MyProject-container">
                     {Project.slice().reverse().map(proje => {
@@ -24,7 +27,7 @@ export default function MyProjects() {
                                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px" }}>
                                         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
                                             <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='globe.png' />
-                                            <a target="_blank" href={proje.link}>Canlı Demo</a>
+                                            {!isClicked ? <a target="_blank" href={proje.link}>Canlı Demo</a> : <a target="_blank" href={proje.link}>Live Demo</a>}
                                         </div>
                                         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
                                             <img style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='github.png' />

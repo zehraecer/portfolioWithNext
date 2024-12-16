@@ -45,7 +45,7 @@ export default function AboutMe() {
                     </div>
                     :
                     <div className="hero-right">
-                        <h1>Hello, I'm Zehra Ecer</h1>
+                        <h1>{`Hello, I'm Zehra Ecer`}</h1>
                         <h3>FRONTEND DEVELOPER</h3>
                         <div className="hero-rightButtons">
                             <a href="https://github.com/zehraecer?tab=repositories">My Projects</a>

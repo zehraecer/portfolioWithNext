@@ -20,7 +20,7 @@ export default function MyProjects() {
                         return (
                             <div key={proje.id} className="Projects" style={{ padding: "24px" }}>
                                 <div >
-                                    <Image width={300} height={300} src={`${proje.image}`} alt={`/${proje.image}`} />
+                                    <Image width={300} height={300} src={`/${proje.image}`} alt={`${proje.image}`} />
                                 </div>
                                 <div className="Projects-hover" style={{ padding: "20px" }}>
                                     <span>{proje.name}</span>

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useContext } from 'react';
 import { MyContext } from '../context';
+import Image from 'next/image';
 export default function AboutMe() {
     const { isClicked } = useContext(MyContext)
 
@@ -15,7 +16,7 @@ export default function AboutMe() {
 
                     <div className="hero-leftFirst">
 
-                        <img src="profil-foto.jpg" />
+                        <Image width={200} height={200} src="profil-foto.jpg" />
 
                         <h2>ZEHRA <br /> ECER</h2>
                         <h3>FRONTEND DEVELOPER</h3>

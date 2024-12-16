@@ -4,6 +4,7 @@ import { faGlobe } from '@fortawesome/free-brands-svg-icons';
 import Project from "@/data/projects.json"
 import { useContext } from 'react';
 import { MyContext } from '../context';
+import Image from 'next/image';
 export default function MyProjects() {
     const { isClicked } = useContext(MyContext)
 
@@ -19,7 +20,7 @@ export default function MyProjects() {
                         return (
                             <div key={proje.id} className="Projects" style={{ padding: "24px" }}>
                                 <div >
-                                    <img src={proje.image} />
+                                    <Image width={300} height={300} src={proje.image} />
                                 </div>
                                 <div className="Projects-hover" style={{ padding: "20px" }}>
                                     <span>{proje.name}</span>

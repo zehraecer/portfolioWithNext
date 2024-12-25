@@ -80,7 +80,7 @@ export const Header = () => {
                                             <Link href="/myProject" className="nav-link" onClick={handleClose}>{!isClicked ? "Projelerim" : "My Projects"}</Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Link href="/myExperiences" className="nav-link" onClick={handleClose}>{!isClicked ? "Tecrübelerim" : "My Experiences"}</Link> {/* Tıklama ile offcanvas'ı kapat */}
+                                            <Link href="/myExperiences" className="nav-link" onClick={handleClose}>{!isClicked ? "Tecrübelerim" : "My Experiences"}</Link>
                                         </Nav.Item>
                                         <Nav.Item>
                                             <Link href="/contact" className="nav-link" onClick={handleClose}>{!isClicked ? "İletişim" : "Contact"}</Link>

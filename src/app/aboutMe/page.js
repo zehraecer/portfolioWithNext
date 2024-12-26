@@ -35,7 +35,8 @@ export default function AboutMe() {
 
                         <div className="hero-rightButtons">
                             <a href="https://github.com/zehraecer?tab=repositories">Projelerim</a>
-                            <a target="_blank" href="zehraEcerCv.pdf" >CV</a>
+                            <a target="_blank" href="zehraEcerCv.pdf" >CV (TR)</a>
+
                         </div>
                         <p>
                             Kendini sürekli geliştiren ve yeni teknolojilere meraklı bir yazılım geliştiriciyim.
@@ -49,7 +50,7 @@ export default function AboutMe() {
                         <h3>FRONTEND DEVELOPER</h3>
                         <div className="hero-rightButtons">
                             <a href="https://github.com/zehraecer?tab=repositories">My Projects</a>
-                            <a target="_blank" href="zehraEcerCv.pdf" >CV</a>
+                            <a target="_blank" href="zehra-cv-eng.pdf" >CV(EN)</a>
                         </div>
                         <p>
                             I am a software developer who is constantly improving and curious about new technologies. I focus on frontend development and have experience with technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, Bootstrap, Git-GitHub, and Figma. I enjoy designing user-friendly and aesthetic web applications.

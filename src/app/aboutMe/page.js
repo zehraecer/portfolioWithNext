@@ -40,8 +40,16 @@ export default function AboutMe() {
                         </div>
                         <p>
                             Kendini sürekli geliştiren ve yeni teknolojilere meraklı bir yazılım geliştiriciyim.
-                            Frontend odaklı çalışıyorum ve  HTML, CSS, Javascript, TypeScript, React, Next.js, Bootstrap, Git-Github, Figma gibi teknolojilerde deneyimliyim.
-                            Kullanıcı dostu ve estetik web uygulamaları tasarlamaktan keyif alıyorum.
+                            Frontend geliştirme odaklı çalışıyor; modern, kullanıcı dostu ve performanslı web uygulamaları geliştiriyorum.
+
+                            HTML5, CSS3, SCSS, JavaScript (ES6+), TypeScript, React.js, Next.js, Redux Toolkit ve Bootstrap teknolojileriyle deneyim sahibiyim.
+
+                            Bunun yanında PHP, Laravel, SQL ve WordPress ile backend ve CMS geliştirme süreçlerinde de aktif olarak görev alıyorum.
+
+                            Git & GitHub kullanımı, Ubuntu ortamında çalışma, Apache / LAMP Stack kurulumu ve yönetimi konularında deneyimliyim.
+                            Ayrıca FTP üzerinden sunucu yönetimi, dosya aktarımı ve canlıya alma (deployment) süreçlerinde çalışıyorum.
+
+                            Kullanıcı deneyimi yüksek, sürdürülebilir ve ölçeklenebilir projeler geliştirmekten keyif alıyorum.
                         </p>
                     </div>
                     :
@@ -53,7 +61,17 @@ export default function AboutMe() {
                             <a target="_blank" href="zehra-cv-eng.pdf" >CV(EN)</a>
                         </div>
                         <p>
-                            I am a software developer who is constantly improving and curious about new technologies. I focus on frontend development and have experience with technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, Bootstrap, Git-GitHub, and Figma. I enjoy designing user-friendly and aesthetic web applications.
+                            I am a software developer who is constantly improving and curious about new technologies.
+                            I mainly focus on frontend development and build modern, user-friendly, and high-performance web applications.
+
+                            I have experience with HTML5, CSS3, SCSS, JavaScript (ES6+), TypeScript, React.js, Next.js, Redux Toolkit, and Bootstrap.
+
+                            In addition, I actively work on backend and CMS development processes using PHP, Laravel, SQL, and WordPress.
+
+                            I also have experience with Git & GitHub workflows, working in Ubuntu environments, and Apache / LAMP Stack setup and management.
+                            Furthermore, I manage deployment processes, file transfers, and server operations via FTP.
+
+                            I enjoy developing scalable, maintainable, and user-focused digital products.
                         </p>
                     </div>
                 }

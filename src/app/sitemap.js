@@ -5,6 +5,7 @@ export default function sitemap() {
             lastModified: new Date(),
             changeFrequency: "weekly",
             priority: 1,
+
         },
     ];
 }

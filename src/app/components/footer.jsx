@@ -1,5 +1,6 @@
+"use client";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { MyContext } from '../context';
 import { useContext } from 'react';
 export const Footer = () => {

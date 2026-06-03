@@ -23,6 +23,10 @@ export default function Experiences() {
                     <Image width={100} height={100} src="/git.png" alt="/git.png" />
                     <Image width={100} height={100} src="/github.png" alt="/github.png" />
                     <Image width={100} height={100} src="/bootstrap.svg" alt="/bootstrap.svg" />
+                    <Image width={100} height={100} src="/laravel.webp" alt="/laravel.webp" />
+                    <Image width={100} height={100} src="/mysql.png" alt="/mysql.png" />
+                    <Image width={100} height={100} src="/php.png" alt="/php.png" />
+                    <Image width={100} height={100} src="/wordpress.png" alt="/wordpress.png" />
                 </div>
             </div>
         </>

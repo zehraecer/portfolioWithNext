@@ -35,7 +35,7 @@ export default function AboutMe() {
 
                         <div className="hero-rightButtons">
                             <a href="https://github.com/zehraecer?tab=repositories">Projelerim</a>
-                            <a target="_blank" href="zehraEcerCv.pdf" >CV (TR)</a>
+                            <a target="_blank" href="zehraecer.pdf" >CV</a>
 
                         </div>
                         <p>
@@ -58,7 +58,7 @@ export default function AboutMe() {
                         <h3>FRONTEND DEVELOPER</h3>
                         <div className="hero-rightButtons">
                             <a href="https://github.com/zehraecer?tab=repositories">My Projects</a>
-                            <a target="_blank" href="zehra-cv-eng.pdf" >CV(EN)</a>
+                            <a target="_blank" href="zehraecer.pdf" >CV</a>
                         </div>
                         <p>
                             I am a software developer who is constantly improving and curious about new technologies.

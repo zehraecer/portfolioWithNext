@@ -12,7 +12,7 @@ export const Footer = () => {
                     <div className="footer-left">
                         <div className="footer-leftFirst">
                             <h3>Bana Yazın</h3>
-                            <a href="#">zehraecer1996@hotmail.com</a>
+                            <a href="#">zehraecer96@gmail.com</a>
                         </div>
                         <div className="footer-leftFirst">
                             <h3>Beni Takip Edin</h3>
@@ -27,7 +27,8 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-right">
-                        <h4>Zehra Ecer © Copyright 2024  Tüm Hakları Saklıdır.</h4>
+                        <h4>© 2026 Zehra ECER Tüm Hakları Saklıdır.</h4>
+
                     </div>
                 </div>
                 :
@@ -36,7 +37,7 @@ export const Footer = () => {
                     <div className="footer-left">
                         <div className="footer-leftFirst">
                             <h3>Contact Me</h3>
-                            <a href="#">zehraecer1996@hotmail.com</a>
+                            <a href="#">zehraecer96@gmail.com</a>
                         </div>
                         <div className="footer-leftFirst">
                             <h3>Follow Me</h3>
@@ -51,7 +52,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-right">
-                        <h4>Zehra Ecer © Copyright 2024 All Rights Reserved.</h4>
+                        <h4>© 2026 Zehra ECER All rights reserved.</h4>
                     </div>
                 </div>
 

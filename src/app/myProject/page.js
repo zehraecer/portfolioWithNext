@@ -1,46 +1,91 @@
-"use client"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe } from '@fortawesome/free-brands-svg-icons';
-import Project from "@/data/projects.json"
-import { useContext } from 'react';
-import { MyContext } from '../context';
-import Image from 'next/image';
-export default function MyProjects() {
-    const { isClicked } = useContext(MyContext)
+"use client";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faArrowUpRightFromSquare,
+    faCode,
+    faGlobe,
+} from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Project from "@/data/projects.json";
+import { useContext } from "react";
+import { MyContext } from "../context";
+import Image from "next/image";
+import "./MyProjects.css";
+
+export default function MyProjects() {
+    const { isClicked } = useContext(MyContext);
 
     return (
-        <>
-            <div className="myProject">
-                <div>
-                    {!isClicked ? <span>Projeler</span> : <span>Projects</span>}
-                </div>
-                <div className="MyProject-container">
-                    {Project.slice().reverse().map(proje => {
-                        return (
-                            <div key={proje.id} className="Projects" style={{ padding: "24px" }}>
-                                <div >
-                                    <Image width={300} height={300} src={`${proje.image}`} alt={`${proje.image}`} />
+        <section className="myProject">
+            <div className="section-title">
+                <span>{!isClicked ? "Projeler" : "Projects"}</span>
+            </div>
+
+            <div className="MyProject-container">
+                {Project.slice()
+                    .reverse()
+                    .map((proje) => (
+                        <div key={proje.id} className="project-card">
+                            <div className="project-image">
+                                <Image
+                                    width={500}
+                                    height={360}
+                                    src={proje.image}
+                                    alt={proje.name}
+                                />
+                            </div>
+
+                            <a
+                                className="external-link"
+                                href={proje.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`${proje.name} canlı demo`}
+                            >
+                                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                            </a>
+
+                            <div className="project-content">
+                                <div className="project-icon">
+                                    <FontAwesomeIcon icon={faCode} />
                                 </div>
-                                <div className="Projects-hover" style={{ padding: "20px" }}>
-                                    <span>{proje.name}</span>
+
+                                <div>
+                                    <h3>{proje.name}</h3>
                                     <p>{proje.description}</p>
-                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px" }}>
-                                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
-                                            <Image width={20} height={20} style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='/globe.png' alt='/globe.png' />
-                                            {!isClicked ? <a target="_blank" href={proje.link}>Canlı Demo</a> : <a target="_blank" href={proje.link}>Live Demo</a>}
-                                        </div>
-                                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "5px" }}>
-                                            <Image width={20} height={20} style={{ width: "20px", height: "20px", display: "inline-block", marginInline: "auto" }} src='/github.png' alt='/github.png' />
-                                            <a target="_blank" href={proje.github}>Github</a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-                        )
-                    })}
-                </div>
+
+                            <div className="project-hover">
+                                <FontAwesomeIcon className="hover-icon" icon={faCode} />
+
+                                <h3>{proje.name}</h3>
+                                <p>{proje.description}</p>
+
+                                <div className="project-actions">
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href={proje.link}
+                                    >
+                                        <FontAwesomeIcon icon={faGlobe} />
+                                        {!isClicked ? "Canlı Demo" : "Live Demo"}
+                                    </a>
+
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href={proje.github}
+                                    >
+                                        <FontAwesomeIcon icon={faGithub} />
+                                        Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
             </div>
-        </>
-    )
+        </section>
+    );
 }

@@ -128,7 +128,7 @@
     {
         "id": 16,
         "name": "Quiz App",
-        "description": "TypeScript, React.ts, Css,Bootstrap",
+        "description": "React.ts, Css,Bootstrap",
         "title": "ben todo yaptım",
         "image": "/quiz.png",
         "link": "https://quiz-app-with-type-script-qwy6.vercel.app/",
